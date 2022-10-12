@@ -30,7 +30,7 @@ if (hacker1.length > hacker2.length) {
 let hacker1UpSpace = "";
 
 for (let i = 0; i < hacker1.length; i++) {
-  if ([i] === hacker1.length - 1) {
+  if (i === hacker1.length - 1) {
     hacker1UpSpace += hacker1[i].toUpperCase();
   } else {
     hacker1UpSpace += hacker1[i].toUpperCase() + " ";
